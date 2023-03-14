@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": ["lodash", "t-writer.js"],
-            "outputPath": "dist/web-portalio",
+            "outputPath": "dist/web-portafolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "web-portalio:build:production"
+              "browserTarget": "web-portafolio:build:production"
             },
             "development": {
-              "browserTarget": "web-portalio:build:development"
+              "browserTarget": "web-portafolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-portalio:build"
+            "browserTarget": "web-portafolio:build"
           }
         },
         "test": {

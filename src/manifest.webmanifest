@@ -1,6 +1,6 @@
 {
-  "name": "Mi Portafolio",
-  "short_name": "Mi Portafolio",
+  "name": "web-portafolio",
+  "short_name": "web-portafolio",
   "theme_color": "#00296b",
   "background_color": "#00296b",
   "display": "standalone",
